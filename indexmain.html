@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique:wght@300&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0px ;
+         
+            padding: 0px;
+           
+           font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            
+        }
+        body{
+            background-image: url("shutterstock_240120346-5bfc3a9f46e0fb00265feb57.jpg");
+             background-repeat: no-repeat;  
+            -moz-background-size: cover;
+-webkit-background-size: cover;
+background-size: cover;
+background-position: top center !important;
+background-repeat: no-repeat !important;
+background-attachment: fixed;
+
+        }
+        .rig{
+            font-family: 'Roboto', sans-serif !important;
+            float: right;
+            margin: 24px;
+            margin-top: 36px;
+            text-align: center;
+          
+   
+    font-size: 21px;
+    padding: 1px;
+    margin-right: 12px;
+        }
+        .rig a{
+            font-family: 'Roboto', sans-serif;
+        }
+        .lef{
+            float: left;
+            font-family: 'Sriracha', cursive;
+            margin: 24px;
+            text-align: center;
+            font-size: 29px;
+    margin-left: 16px;
+        }
+        li{
+           list-style: none;
+           /* border: 2px solid yellow; */
+           color: rgb(187, 10, 10);
+        }
+        .navbar{
+z-index: 4;
+            /* border: 2px solid green; */
+            margin-top: 0px;
+        }
+        .navbar ul{
+
+            overflow: auto;
+            text-align: center;
+        }
+        ul{
+           background-color: rgb(247, 179, 179);
+           opacity: 0.5;
+            text-align: center;
+          
+        }
+        .img{
+            z-index: -1;
+
+        }
+        .butt{
+            font-family: 'Source Sans Pro', sans-serif;
+            position: relative;
+            margin-left: 43%;
+    margin-top: 5%;
+        }
+        .btn{
+            margin: auto;
+            font-family: 'Source Sans Pro', sans-serif;
+            background-color: rgb(230, 207, 207);
+            color: black;
+            border-radius: 20px;
+            padding: 10px;
+            font-size: 20px;
+            border: none;
+        }
+        h2{
+            text-align: center;
+            font-family: 'Baloo Bhaijaan 2', cursive;
+            color: rgba(179, 78, 78, 0.966);
+            margin-top: 88px;
+            font-size: 4.6rem;
+        }
+        h3{
+            font-family: 'Zen Kaku Gothic Antique', sans-serif;
+            text-align: center;
+            color: rgba(179, 78, 78, 0.966);
+            margin-top: 46px;
+            font-size: 2.3rem;
+        }
+  .bt1{
+    font-family: 'Source Sans Pro', sans-serif;
+  
+    justify-content: center;
+    align-items: center;
+    margin-right: 48px;
+  }
+ 
+  a:-webkit-any-link {
+            color: rgb(109, 5, 5);
+            cursor: pointer;
+            text-decoration: none;
+       
+        }
+        .navbar li a:hover{
+         color: white;
+        }
+        .navbar li btn:hover{
+         color: white;
+        }
+        button a{
+            color: rgb(240, 198, 168);
+        }
+  button a:hover{
+      color: white;
+  }
+    </style>
+</head>
+<body>
+    
+    <div class="navbar">
+        <ul>
+            <li class="lef">Welcome to Grip's Bank</li>
+            <li class="rig"><a href="custo_view.php">View Customers</a> </li>
+            <li class="rig"><a href="about.html" target="__blank">About Us</a> </li>
+        </ul>
+    </div>
+
+    <h2>Banking System</h2>
+    <h3>Select the Option</h2>
+
+    <div class="butt">
+
+        <button type="button" class="btn bt1"><a href="transfermoney.php">Transfer To Customers</a>           </button>
+        <!-- <button type="button" class="btn bt2"><a href="custo_trans.php"> Transfer to Customers</a>       </button> -->
+    </div>
+</body>
+</html>
